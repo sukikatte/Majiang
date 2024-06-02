@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher  # 为Swagger兼容性设置路径匹配策略
+
+server:
+  port: 9966
